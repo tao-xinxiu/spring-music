@@ -10,7 +10,7 @@
   },
   "apps": {
     "spring-music": {
-      "path": "."
+      "path": ".",
       "manifest_name": "manifest.yml"
     }
   }
