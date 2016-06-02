@@ -1,0 +1,16 @@
+{
+  "name": "spring-music-push2cloud",
+  "description": "release manifest for push2cloud",
+  "version": "1.0.0",
+  "source": {
+    "type": "git",
+    "url": "https://github.com/tao-xinxiu/spring-music.git",
+    "referenceValue": "master",
+    "postClone": "./gradlew assemble"
+  },
+  "apps": {
+    "spring-music": {
+      "path": "."
+    }
+  }
+}
