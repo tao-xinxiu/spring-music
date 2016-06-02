@@ -1,0 +1,13 @@
+{
+  "name": "spring-music",
+  "version": "1.0.0",
+  "deployment": {
+    "memory": 512,
+    "disk": 512,
+    "instances": 1,
+    "startTimeout": 600,
+    "stageTimeout": 600,
+    "gracePeriod": 20,
+    "buildpack": "https://github.com/cloudfoundry/java-buildpack.git"
+  }
+}
