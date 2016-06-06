@@ -5,8 +5,7 @@
   "source": {
     "type": "git",
     "url": "https://github.com/tao-xinxiu/spring-music.git",
-    "referenceValue": "master",
-    "postClone": "./gradlew assemble"
+    "referenceValue": "master"
   },
   "apps": {
     "spring-music": {
